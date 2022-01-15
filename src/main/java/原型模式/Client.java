@@ -12,5 +12,7 @@ public class Client {
         Sheep sheep1 = (Sheep)sheep.clone();
         System.out.println("sheep:"+sheep.toString());
         System.out.println("sheep1:"+sheep1.toString());
+        System.out.print("两个对象是否相同：");
+        System.out.println(sheep==sheep1);
     }
 }
